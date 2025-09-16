@@ -35,11 +35,11 @@ $tf = [
 ];
 
 $fourpics = [
-    [["qzimages/ITFundamentalQuiz/Q11.png","qzimages/ITFundamentalQuiz/Q12.png","qzimages/ITFundamentalQuiz/Q13.png","qzimages/ITFundamentalQuiz/Q14.png"], "HARDWARE"],
-    [["qzimages/ITFundamentalQuiz/Q21.png","qzimages/ITFundamentalQuiz/Q22.png","qzimages/ITFundamentalQuiz/Q23.png","qzimages/ITFundamentalQuiz/Q24.png"], "SOFTWARE"],
-    [["qzimages/ITFundamentalQuiz/Q31.png","qzimages/ITFundamentalQuiz/Q32.png","qzimages/ITFundamentalQuiz/Q33.png","qzimages/ITFundamentalQuiz/Q34.png"], "NETWORK"],
-    [["qzimages/ITFundamentalQuiz/Q41.png","qzimages/ITFundamentalQuiz/Q42.png","qzimages/ITFundamentalQuiz/Q43.png","qzimages/ITFundamentalQuiz/Q44.png"], "CPU"],
-    [["qzimages/ITFundamentalQuiz/Q51.png","qzimages/ITFundamentalQuiz/Q52.png","qzimages/ITFundamentalQuiz/Q53.png","qzimages/ITFundamentalQuiz/Q54.png"], "DEVICES"]
+    [["qzImages/ITFundamentalQuiz/Q11.png","qzImages/ITFundamentalQuiz/Q12.png","qzImages/ITFundamentalQuiz/Q13.png","qzImages/ITFundamentalQuiz/Q14.png"], "HARDWARE"],
+    [["qzImages/ITFundamentalQuiz/Q21.png","qzImages/ITFundamentalQuiz/Q22.png","qzImages/ITFundamentalQuiz/Q23.png","qzImages/ITFundamentalQuiz/Q24.png"], "SOFTWARE"],
+    [["qzImages/ITFundamentalQuiz/Q31.png","qzImages/ITFundamentalQuiz/Q32.png","qzImages/ITFundamentalQuiz/Q33.png","qzImages/ITFundamentalQuiz/Q34.png"], "NETWORK"],
+    [["qzImages/ITFundamentalQuiz/Q41.png","qzImages/ITFundamentalQuiz/Q42.png","qzImages/ITFundamentalQuiz/Q43.png","qzImages/ITFundamentalQuiz/Q44.png"], "CPU"],
+    [["qzImages/ITFundamentalQuiz/Q51.png","qzImages/ITFundamentalQuiz/Q52.png","qzImages/ITFundamentalQuiz/Q53.png","qzImages/ITFundamentalQuiz/Q54.png"], "DEVICES"]
 ];      
 
 // header and navigation

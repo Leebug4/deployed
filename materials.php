@@ -7,22 +7,22 @@ $materials = [
     [
         "title" => "Web Fundamentals",
         "content" => "HTML creates the structure of a webpage, CSS styles it, and JavaScript adds interactivity.",
-        "image" => "images/learningMaterials/WebQ22.png" 
+        "image" => "Images/learningMaterials/WebQ22.png" 
     ],
     [
         "title" => "IT Fundamentals",
         "content" => "IT covers hardware, software, networking, and basic computer troubleshooting.",
-        "image" => "images/learningMaterials/Q13.png" 
+        "image" => "Images/learningMaterials/Q13.png" 
     ],
     [
         "title" => "Programming Fundamentals",
         "content" => "Programming teaches variables, control flow, functions, and simple algorithms.",
-        "image" => "images/learningMaterials/Q11.png" 
+        "image" => "Images/learningMaterials/Q11.png" 
     ],
     [
         "title" => "Artificial Intelligence",
         "content" => "AI uses data and models to let computers recognize patterns and make decisions.",
-        "image" => "images/learningMaterials/Q12.png" 
+        "image" => "Images/learningMaterials/Q12.png" 
     ]
 ];
 

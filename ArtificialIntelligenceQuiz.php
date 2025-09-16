@@ -36,11 +36,11 @@ $tf = [
 
 // 4 Pics 1 Word (images should be inside /images/ folder)
 $fourpics = [
-    [["qzimages/ArtificialIntelligenceQuiz/Q11.png","qzimages/ArtificialIntelligenceQuiz/Q12.png","qzimages/ArtificialIntelligenceQuiz/Q13.png","qzimages/ArtificialIntelligenceQuiz/Q14.png"], "ROBOT"],
-    [["qzimages/ArtificialIntelligenceQuiz/Q21.png","qzimages/ArtificialIntelligenceQuiz/Q22.png","qzimages/ArtificialIntelligenceQuiz/Q23.png","qzimages/ArtificialIntelligenceQuiz/Q24.png"], "AUTOMATIC"],
-    [["qzimages/ArtificialIntelligenceQuiz/Q31.png","qzimages/ArtificialIntelligenceQuiz/Q32.png","qzimages/ArtificialIntelligenceQuiz/Q33.png","qzimages/ArtificialIntelligenceQuiz/Q34.png"], "MACHINE"],
-    [["qzimages/ArtificialIntelligenceQuiz/Q41.png","qzimages/ArtificialIntelligenceQuiz/Q42.png","qzimages/ArtificialIntelligenceQuiz/Q43.png","qzimages/ArtificialIntelligenceQuiz/Q44.png"], "SMART"],
-    [["qzimages/ArtificialIntelligenceQuiz/Q51.png","qzimages/ArtificialIntelligenceQuiz/Q52.png","qzimages/ArtificialIntelligenceQuiz/Q53.png","qzimages/ArtificialIntelligenceQuiz/Q54.png"], "SENSORS"],
+    [["qzImages/ArtificialIntelligenceQuiz/Q11.png","qzImages/ArtificialIntelligenceQuiz/Q12.png","qzImages/ArtificialIntelligenceQuiz/Q13.png","qzImages/ArtificialIntelligenceQuiz/Q14.png"], "ROBOT"],
+    [["qzImages/ArtificialIntelligenceQuiz/Q21.png","qzImages/ArtificialIntelligenceQuiz/Q22.png","qzImages/ArtificialIntelligenceQuiz/Q23.png","qzImages/ArtificialIntelligenceQuiz/Q24.png"], "AUTOMATIC"],
+    [["qzImages/ArtificialIntelligenceQuiz/Q31.png","qzImages/ArtificialIntelligenceQuiz/Q32.png","qzImages/ArtificialIntelligenceQuiz/Q33.png","qzImages/ArtificialIntelligenceQuiz/Q34.png"], "MACHINE"],
+    [["qzImages/ArtificialIntelligenceQuiz/Q41.png","qzImages/ArtificialIntelligenceQuiz/Q42.png","qzImages/ArtificialIntelligenceQuiz/Q43.png","qzImages/ArtificialIntelligenceQuiz/Q44.png"], "SMART"],
+    [["qzImages/ArtificialIntelligenceQuiz/Q51.png","qzImages/ArtificialIntelligenceQuiz/Q52.png","qzImages/ArtificialIntelligenceQuiz/Q53.png","qzImages/ArtificialIntelligenceQuiz/Q54.png"], "SENSORS"],
 ];
 
 

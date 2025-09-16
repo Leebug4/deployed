@@ -36,11 +36,11 @@ $tf = [
 
 // 4 Pics 1 Word (images should be inside /images/ folder)
 $fourpics = [
-    [["qzimages/WebFundamentalQuiz/WebQ11.png","qzimages/WebFundamentalQuiz/WebQ12.png","qzimages/WebFundamentalQuiz/WebQ13.png","qzimages/WebFundamentalQuiz/WebQ14.png"], "WEB"],
-    [["qzimages/WebFundamentalQuiz/WebQ21.png","qzimages/WebFundamentalQuiz/WebQ22.png","qzimages/WebFundamentalQuiz/WebQ23.png","qzimages/WebFundamentalQuiz/WebQ24.png"], "lINK"],
-    [["qzimages/WebFundamentalQuiz/WebQ31.png","qzimages/WebFundamentalQuiz/WebQ32.png","qzimages/WebFundamentalQuiz/WebQ33.png","qzimages/WebFundamentalQuiz/WebQ34.png"], "HTML"],
-    [["qzimages/WebFundamentalQuiz/WebQ41.png","qzimages/WebFundamentalQuiz/WebQ42.png","qzimages/WebFundamentalQuiz/WebQ43.png","qzimages/WebFundamentalQuiz/WebQ44.png"], "CSS"],
-    [["qzimages/WebFundamentalQuiz/WebQ51.png","qzimages/WebFundamentalQuiz/WebQ52.png","qzimages/WebFundamentalQuiz/WebQ53.png","qzimages/WebFundamentalQuiz/WebQ54.png"], "JAVASCRIPT"],
+    [["qzImages/WebFundamentalQuiz/WebQ11.png","qzImages/WebFundamentalQuiz/WebQ12.png","qzImages/WebFundamentalQuiz/WebQ13.png","qzImages/WebFundamentalQuiz/WebQ14.png"], "WEB"],
+    [["qzImages/WebFundamentalQuiz/WebQ21.png","qzImages/WebFundamentalQuiz/WebQ22.png","qzImages/WebFundamentalQuiz/WebQ23.png","qzImages/WebFundamentalQuiz/WebQ24.png"], "lINK"],
+    [["qzImages/WebFundamentalQuiz/WebQ31.png","qzImages/WebFundamentalQuiz/WebQ32.png","qzImages/WebFundamentalQuiz/WebQ33.png","qzImages/WebFundamentalQuiz/WebQ34.png"], "HTML"],
+    [["qzImages/WebFundamentalQuiz/WebQ41.png","qzImages/WebFundamentalQuiz/WebQ42.png","qzImages/WebFundamentalQuiz/WebQ43.png","qzImages/WebFundamentalQuiz/WebQ44.png"], "CSS"],
+    [["qzImages/WebFundamentalQuiz/WebQ51.png","qzImages/WebFundamentalQuiz/WebQ52.png","qzImages/WebFundamentalQuiz/WebQ53.png","qzImages/WebFundamentalQuiz/WebQ54.png"], "JAVASCRIPT"],
 ];
 
 // header and nav

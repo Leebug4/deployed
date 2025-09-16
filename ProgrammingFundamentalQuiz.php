@@ -36,11 +36,11 @@ $tf = [
 
 // 4 Pics 1 Word (images should be inside /images/ folder)
 $fourpics = [
-    [["qzimages/ProgrammingFundamentalQuiz/Q11.png","qzimages/ProgrammingFundamentalQuiz/Q12.png","qzimages/ProgrammingFundamentalQuiz/Q13.png","qzimages/ProgrammingFundamentalQuiz/Q14.png"], "CODE"],
-    [["qzimages/ProgrammingFundamentalQuiz/Q21.png","qzimages/ProgrammingFundamentalQuiz/Q22.png","qzimages/ProgrammingFundamentalQuiz/Q23.png","qzimages/ProgrammingFundamentalQuiz/Q24.png"], "VARIABLE"],
-    [["qzimages/ProgrammingFundamentalQuiz/Q31.png","qzimages/ProgrammingFundamentalQuiz/Q32.png","qzimages/ProgrammingFundamentalQuiz/Q33.png","qzimages/ProgrammingFundamentalQuiz/Q34.png"], "LOOP"],
-    [["qzimages/ProgrammingFundamentalQuiz/Q41.png","qzimages/ProgrammingFundamentalQuiz/Q42.png","qzimages/ProgrammingFundamentalQuiz/Q43.png","qzimages/ProgrammingFundamentalQuiz/Q44.png"], "DEBUG"],
-    [["qzimages/ProgrammingFundamentalQuiz/Q51.png","qzimages/ProgrammingFundamentalQuiz/Q52.png","qzimages/ProgrammingFundamentalQuiz/Q53.png","qzimages/ProgrammingFundamentalQuiz/Q54.png"], "COMPILE"],
+    [["qzImages/ProgrammingFundamentalQuiz/Q11.png","qZImages/ProgrammingFundamentalQuiz/Q12.png","qzImages/ProgrammingFundamentalQuiz/Q13.png","qzImages/ProgrammingFundamentalQuiz/Q14.png"], "CODE"],
+    [["qzImages/ProgrammingFundamentalQuiz/Q21.png","qzImages/ProgrammingFundamentalQuiz/Q22.png","qzImages/ProgrammingFundamentalQuiz/Q23.png","qzImages/ProgrammingFundamentalQuiz/Q24.png"], "VARIABLE"],
+    [["qzImages/ProgrammingFundamentalQuiz/Q31.png","qzImages/ProgrammingFundamentalQuiz/Q32.png","qzImages/ProgrammingFundamentalQuiz/Q33.png","qzImages/ProgrammingFundamentalQuiz/Q34.png"], "LOOP"],
+    [["qzImages/ProgrammingFundamentalQuiz/Q41.png","qzImages/ProgrammingFundamentalQuiz/Q42.png","qzImages/ProgrammingFundamentalQuiz/Q43.png","qzImages/ProgrammingFundamentalQuiz/Q44.png"], "DEBUG"],
+    [["qzImages/ProgrammingFundamentalQuiz/Q51.png","qzImages/ProgrammingFundamentalQuiz/Q52.png","qzImages/ProgrammingFundamentalQuiz/Q53.png","qzImages/ProgrammingFundamentalQuiz/Q54.png"], "COMPILE"],
 ];
 
 // header and nav
