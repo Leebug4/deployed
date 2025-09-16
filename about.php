@@ -38,16 +38,16 @@ include "header.php";
             <b>John Mark Cabugawan</b><br>
             CSS Programmer<br>
             <p>I handled the front-end coding</p>
-        </td>       
-    </tr>
-
-    <tr>
+        </td>  
         <td align="center">
             <img src="DevsImages/Cruz, Bjorn Kurk G..jfif" width="120" height="120" style="border-radius:50%;"><br>
             <b>Bjorn Cruz</b><br>
             Programmer<br>
             <p>I handled the back-end coding</p>
-        </td>
+        </td>     
+    </tr>
+
+    <tr>      
          <td align="center">
             <img src="DevsImages/Lazaro, Daniel Joaquin M.png" width="120" height="120" style="border-radius:50%;"><br>
             <b>Lazaro Daniel Joaquin</b><br>
