@@ -116,7 +116,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         if (!isset($_SESSION['scores'])) $_SESSION['scores'] = [];
         $_SESSION['scores'][$topicKey] = ["type"=>$type,"score"=>$score,"max"=>count($questions)];
-
+        $_SESSION['score'] = $score;
+        
         echo "<h2>Results</h2>";
         echo "<p>You scored <b>$score</b> out of <b>" . count($questions) . "</b>.</p>";
         echo "<p><a href='ProgrammingFundamentalQuiz.php?type=$type'><button>Try Again</button></a> ";
@@ -149,6 +150,7 @@ if ($type === 'mcq') {
 } elseif ($type === 'fourpics') {
     if (!isset($_SESSION['fp_index'])) $_SESSION['fp_index'] = 0;
     if (!isset($_SESSION['fp_score'])) $_SESSION['fp_score'] = 0;
+    $_SESSION['score'] = $_SESSION['fp_score']; 
 
     $currentIndex = $_SESSION['fp_index'];
     $q = $fourpics[$currentIndex];
