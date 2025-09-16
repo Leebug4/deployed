@@ -1,0 +1,39 @@
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+h2 {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 32px;
+    color: #ff6600;
+}
+
+table {
+    margin-top: 20px;
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+
+td {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #ffffff;
+    width: 220px;
+}
+
+td b {
+    color: #003366;
+}
+
+table img {
+    border: 3px solid #ff6600;
+}
+
+.about-text {
+    font-size: 16px;
+    color: black;
+}

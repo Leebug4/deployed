@@ -1,0 +1,157 @@
+/* Layout */
+.profile-container {
+    display: flex;
+    gap: 20px;
+    margin: 40px;
+}
+
+/* Left Profile Card */
+.profile-card {
+    flex: 1;
+    max-width: 300px;
+    background: #1da1f2;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 30px 20px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+}
+
+.avatar-circle {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 50%;
+    font-size: 50px;
+    line-height: 100px;
+    margin: 0 auto 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.username {
+    font-size: 1rem;
+    opacity: 0.9;
+    margin-bottom: 20px;
+}
+
+.stats div {
+    background: rgba(255,255,255,0.2);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+}
+
+/* Right Dashboard */
+.dashboard {
+    flex: 3;
+}
+
+.dashboard h1 {
+    margin-bottom: 20px;
+    color: #ff8800;
+}
+
+.card {
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Forms */
+form input[type="text"],
+form input[type="password"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+form input[type="submit"] {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+    width: 100%;
+}
+
+form input[type="submit"]:hover {
+    background: #0056b3;
+}
+
+.logout-btn {
+    background: #f44336 !important;
+}
+.logout-btn:hover {
+    background: #c62828 !important;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+table th {
+    background: #007bff;
+    color: white;
+}
+table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* Login Box */
+.login-box {
+    max-width: 400px;
+    margin: 80px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+.stats {
+  display: flex;
+  justify-content: center;  /* centers them horizontally */
+  gap: 20px;                /* space between cards */
+  margin-top: 20px;
+}
+
+.stat-card {
+  background: white;
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  width: 70px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;  /* icon above number */
+  align-items: center;
+  justify-content: center;
+}
+
+.stat-card i {
+  font-size: 22px;
+  margin-bottom: 5px;
+  color: orange;
+}
+

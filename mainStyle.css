@@ -1,0 +1,197 @@
+/* =========================
+   Base Styles
+========================= */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 100vh;
+    position: relative;
+    font-family: Arial, sans-serif;
+    background-color: #e6f7ff;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+    padding: 20px;
+}
+h1, h2 {
+    color: #333;
+}
+p {
+    text-align: center;
+    margin-top: 10px;
+}
+form {
+    margin-top: 20px;
+}
+input[type="text"] {
+    padding: 8px;
+    width: 200px;
+}
+
+/* =========================
+   Header Styles
+========================= */
+header {
+    background: rgba(0, 123, 255, 0.18);
+    color: #333;
+    text-align: center;
+    padding: 6px 0;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 18px 48px 0 48px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.logo-area {
+    display: flex;
+    align-items: center;
+}
+.logo-area img {
+    height: 48px;
+    margin-right: 12px;
+}
+.logo-area .logo-text {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #ff8800;
+    letter-spacing: 1px;
+}
+.logo-area .logo-sub {
+    font-size: 1rem;
+    color: #ff8800;
+    margin-left: 4px;
+}
+.nav-menu {
+    display: flex;
+    gap: 38px;
+}
+.nav-menu a {
+    text-decoration: none;
+    color: #888;
+    font-size: 1.25rem;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+.nav-menu a:hover {
+    color: #007bff;
+}
+.profile-img {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #eee;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* =========================
+   Button Styles
+========================= */
+button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    margin: 0 12px;
+    transition: box-shadow 0.2s;
+}
+button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    transform: scale(2.08);
+}
+
+/* =========================
+   Main Banner Styles
+========================= */
+.main-banner {
+    background: #1da1f2;
+    border-radius: 32px;
+    margin: 32px 48px;
+    padding: 48px 48px 48px 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #111;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    position: relative;
+    overflow: visible;  /* Allow image to overflow */
+}
+.banner-text {
+    max-width: 540px;
+}
+.banner-text h1 {
+    font-size: 2.8rem;
+    font-weight: 900;
+    margin-bottom: 18px;
+    color: #111;
+    letter-spacing: 2px;
+}
+.banner-text p {
+    font-size: 1.2rem;
+    color: #222;
+    margin-bottom: 32px;
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 32px;
+    padding: 12px 28px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    width: 340px;
+    font-size: 1.2rem;
+}
+.search-box input {
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    flex: 1;
+    background: transparent;
+    margin-left: 12px;
+}
+.search-icon {
+    color: #ff8800;
+    font-size: 1.5rem;
+}
+.banner-img {
+  position: absolute;
+  right: 100px;
+  top: -40px;
+  bottom: -40px;
+  object-fit: cover;
+  height: calc(100% + 80px);
+  border-radius: 0;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+  object-fit: cover;
+  object-position: center; 
+}
+
+/* =========================
+   Footer Styles
+========================= */
+footer {
+    background: #007bff62;
+    color: #fff;
+    text-align: center;
+    padding: 3px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    z-index: 100;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.08);
+}
