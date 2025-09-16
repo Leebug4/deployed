@@ -16,13 +16,13 @@ include "header.php";
 <table align="center" cellpadding="20">
     <tr>
         <td align="center">
-            <img src="DevsImages/sop.jpg" width="120" height="120" style="border-radius:50%;"><br>
+            <img src="DevsImages/Beloro, Sophia Rhyzelle.jpg" width="120" height="120" style="border-radius:50%;"><br>
             <b>Sophia Beloro</b><br>
             Project Manager<br>
             <p>I handled the planning, layouting and back-end coding</p>
         </td>
         <td align="center">
-            <img src="DevsImages/emz.png" width="120" height="120" style="border-radius:50%;"><br>
+            <img src="DevsImages/Tala, Mark Jayson.png" width="120" height="120" style="border-radius:50%;"><br>
             <b>Mark Jayson Tala</b><br>
             Main Programmer<br>
             <p>I handled mostly of the back-end coding</p>
@@ -34,7 +34,7 @@ include "header.php";
             <p>I handled mostly of the front-end coding</p>
         </td>
         <td align="center">
-            <img src="DevsImages/bogard.png" width="120" height="120" style="border-radius:50%;"><br>
+            <img src="DevsImages/Cabugawan, john mark .jpg" width="120" height="120" style="border-radius:50%;"><br>
             <b>John Mark Cabugawan</b><br>
             CSS Programmer<br>
             <p>I handled the front-end coding</p>
@@ -43,34 +43,34 @@ include "header.php";
 
     <tr>
         <td align="center">
-            <img src="https://via.placeholder.com/120" width="120" height="120" style="border-radius:50%;"><br>
+            <img src="DevsImages/Cruz, Bjorn Kurk G..jfif" width="120" height="120" style="border-radius:50%;"><br>
             <b>Bjorn Cruz</b><br>
             Programmer<br>
             <p>I handled the back-end coding</p>
         </td>
          <td align="center">
-            <img src="https://via.placeholder.com/120" width="120" height="120" style="border-radius:50%;"><br>
-            <b>Bjorn Cruz</b><br>
-            Programmer<br>
-            <p>I handled the back-end coding</p>
+            <img src="DevsImages/Lazaro, Daniel Joaquin M.png" width="120" height="120" style="border-radius:50%;"><br>
+            <b>Lazaro Daniel Joaquin</b><br>
+            Reasercher <br>
+            <p>I handled the context of our website</p>
+        </td>
+        <td align="center">
+            <img src="DevsImages/Lucas, Lloyd Vincent F..jpeg" width="120" height="120" style="border-radius:50%;"><br>
+            <b>Lucas Lloyd Vincent F.</b><br>
+            Reasercher <br>
+            <p>I handled the context of our website</p>
+        </td>
+        <td align="center">
+            <img src="DevsImages/Samson, AJ DC..png" width="120" height="120" style="border-radius:50%;"><br>
+            <b>AJ Samson</b><br>
+            Reasercher <br>
+            <p>I handled the images of our website</p>
         </td>
         <td align="center">
             <img src="https://via.placeholder.com/120" width="120" height="120" style="border-radius:50%;"><br>
-            <b>Member 6</b><br>
+            <b>Lanz Jireh Aceveda </b><br>
             Role/Position<br>
-            <p>Short description about member 6.</p>
-        </td>
-        <td align="center">
-            <img src="https://via.placeholder.com/120" width="120" height="120" style="border-radius:50%;"><br>
-            <b>Member 7</b><br>
-            Role/Position<br>
-            <p>Short description about member 7.</p>
-        </td>
-        <td align="center">
-            <img src="https://via.placeholder.com/120" width="120" height="120" style="border-radius:50%;"><br>
-            <b>Member 8</b><br>
-            Role/Position<br>
-            <p>Short description about member 8.</p>
+            <p>Short description about member 9.</p>
         </td>
         
     </tr>

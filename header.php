@@ -17,8 +17,8 @@
         <a href="index.php">Home</a>
         <a href="materials.php">Learning Materials</a>
         <a href="quiz.php">Take Quiz</a>
-        <a href="about.php">About Us</a>
         <a href="profile.php">Profile</a>
+        <a href="about.php">About Us</a>   
     </nav>
     <!-- <a href="profile.php" class="profile-link"> -->
     <img src="Images/dreamybullpfp.jpg" alt="Profile" class="profile-img">
