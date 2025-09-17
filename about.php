@@ -20,61 +20,61 @@ include "header.php";
 <table align="center" cellpadding="20">
     <tr>
         <td align="center">
-            <img src="DevsImages/Beloro, Sophia Rhyzelle.jpg" width="120" height="120" style="border-radius:50%;"><br>
-            <b>Sophia Beloro</b><br>
+            <img src="DevsImages/Beloro_AboutUs.png" width="120" height="120" style="border-radius:50%;"><br>
+            <b>Sophia Rhyzelle T. Beloro</b><br>
             Project Manager<br>
-            <p>I handled the planning, layouting and back-end coding</p>
+            <p>Responsible for overseeing the planning and execution of the project. Also contributed to layout design and participated in back-end development using HTML and PHP.</p>
         </td>
         <td align="center">
-            <img src="DevsImages/Tala, Mark Jayson.png" width="120" height="120" style="border-radius:50%;"><br>
-            <b>Mark Jayson Tala</b><br>
-            Main Programmer<br>
-            <p>I handled mostly of the back-end coding</p>
+            <img src="DevsImages/Tala_AboutUs.png" width="120" height="120" style="border-radius:50%;"><br>
+            <b>Mark Jayson B. Tala</b><br>
+            Lead Back-End Programmer<br>
+            <p>Primarily responsible for the development and structuring of the back-end functionalities of the system using HTML and PHP.</p>
         </td>
         <td align="center">
-            <img src="DevsImages/pastor.jpg" width="120" height="120" style="border-radius:50%;"><br>
-            <b>Rom Jerico Reyes</b><br>
-            CSS Programmer<br>
-            <p>I handled mostly of the front-end coding</p>
+            <img src="DevsImages/Reyes_AboutUs.png" width="120" height="120" style="border-radius:50%;"><br>
+            <b>Rom Jerico T. Reyes</b><br>
+            Lead Front-End Programmer<br>
+            <p>Mainly handled the development of the front-end interface and design elements of the system using CSS.</p>
         </td>
         <td align="center">
-            <img src="DevsImages/Cabugawan, john mark .jpg" width="120" height="120" style="border-radius:50%;"><br>
-            <b>John Mark Cabugawan</b><br>
-            CSS Programmer<br>
-            <p>I handled the front-end coding</p>
+            <img src="DevsImages/Cabugawan_AboutUs.png" width="120" height="120" style="border-radius:50%;"><br>
+            <b>John Mark C. Cabugawan</b><br>
+            Front-End Programmer<br>
+            <p>Assisted in developing the front-end components and user interface of the system using CSS.</p>
         </td>             
     </tr>
 
     <tr>  
         <td align="center">
-            <img src="DevsImages/Cruz, Bjorn Kurk G..jfif" width="120" height="120" style="border-radius:50%;"><br>
-            <b>Bjorn Cruz</b><br>
-            Programmer<br>
-            <p>I handled the back-end coding</p>
+            <img src="DevsImages/Cruz_AboutUs.png" width="120" height="120" style="border-radius:50%;"><br>
+            <b>Bjorn G. Kurk Cruz</b><br>
+            Back-End Programmer<br>
+            <p>Contributed to the back-end development of the system, working primarily with HTML and PHP.</p>
         </td>     
          <td align="center">
-            <img src="DevsImages/Lazaro, Daniel Joaquin M.png" width="120" height="120" style="border-radius:50%;"><br>
-            <b>Lazaro Daniel Joaquin</b><br>
-            Reasercher <br>
-            <p>I handled the context of our website</p>
+            <img src="DevsImages/Lazaro_AboutUs.png" width="120" height="120" style="border-radius:50%;"><br>
+            <b>Daniel Joaquin M. Lazaro</b><br>
+             Research Support<br>
+            <p>Assisted in researching relevant information for the quiz content integrated into the system.</p>
         </td>
         <td align="center">
-            <img src="DevsImages/Lucas, Lloyd Vincent F..jpeg" width="120" height="120" style="border-radius:50%;"><br>
-            <b>Lucas Lloyd Vincent F.</b><br>
-            Reasercher <br>
-            <p>I handled the context of our website</p>
+            <img src="DevsImages/Lucas_AboutUs.png" width="120" height="120" style="border-radius:50%;"><br>
+            <b>Lloyd Vincent Lucas</b><br>
+            Document Production Support<br>
+            <p>Assisted in producing printed materials used for the system’s presentation and documentation.</p>
         </td>
         <td align="center">
-            <img src="DevsImages/Samson, AJ DC..png" width="120" height="120" style="border-radius:50%;"><br>
-            <b>AJ Samson</b><br>
-            Reasercher <br>
-            <p>I handled the images of our website</p>
+            <img src="DevsImages/Samson_AboutUs.png" width="120" height="120" style="border-radius:50%;"><br>
+            <b>AJ DC. Samson</b><br>
+            Content Assistant<br>
+            <p>Provided support in content preparation by conducting minor research and assisting in uploading images used within the system.</p>
         </td>
         <td align="center">
-            <img src="https://via.placeholder.com/120" width="120" height="120" style="border-radius:50%;"><br>
-            <b>Lanz Jireh Aceveda </b><br>
-            Role/Position<br>
-            <p>Short description about member 9.</p>
+            <img src="DevsImages/Aceveda_AboutUs.png" width="120" height="120" style="border-radius:50%;"><br>
+            <b>Lanz Jireh R. Aceveda</b><br>
+            Research Support<br>
+            <p>Supported the team by conducting research to gather necessary information for the quiz section of the system.</p>
         </td>  
     </tr>
 </table>
