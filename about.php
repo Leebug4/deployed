@@ -45,7 +45,13 @@ include "header.php";
         </td>             
     </tr>
 
-    <tr>      
+    <tr>  
+        <td align="center">
+            <img src="DevsImages/Cruz, Bjorn Kurk G..jfif" width="120" height="120" style="border-radius:50%;"><br>
+            <b>Bjorn Cruz</b><br>
+            Programmer<br>
+            <p>I handled the back-end coding</p>
+        </td>     
          <td align="center">
             <img src="DevsImages/Lazaro, Daniel Joaquin M.png" width="120" height="120" style="border-radius:50%;"><br>
             <b>Lazaro Daniel Joaquin</b><br>
@@ -69,13 +75,7 @@ include "header.php";
             <b>Lanz Jireh Aceveda </b><br>
             Role/Position<br>
             <p>Short description about member 9.</p>
-        </td>
-        <td align="center">
-            <img src="DevsImages/Cruz, Bjorn Kurk G..jfif" width="120" height="120" style="border-radius:50%;"><br>
-            <b>Bjorn Cruz</b><br>
-            Programmer<br>
-            <p>I handled the back-end coding</p>
-        </td>   
+        </td>  
     </tr>
 </table>
 
