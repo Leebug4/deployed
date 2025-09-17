@@ -17,7 +17,7 @@ include "header.php";
       <p class="cta">Tap on the topic that tickles your fancy and choose your quiz adventure!</p>
 
       <div class="topics">
-        <label class="topic"><input type="radio" name="topic" value="web" required><span>Web Development</span></label>
+         <label class="topic"><input type="radio" name="topic" value="web" required><span>Web Fundamental</span></label>
         <label class="topic"><input type="radio" name="topic" value="it"><span>IT Fundamentals</span></label>
         <label class="topic"><input type="radio" name="topic" value="programming"><span>Programming Fundamentals</span></label>
         <label class="topic"><input type="radio" name="topic" value="ai"><span>Artificial Intelligence</span></label>
