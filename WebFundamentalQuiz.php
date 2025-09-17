@@ -47,7 +47,6 @@
 
     // header and nav
     echo "<h1>Web Fundamentals Quiz</h1>";
-    echo "<p><a href='quiz.php'><button>Back to Quiz Hub</button></a></p>";
 
     if (!$type) {
         echo "<h3>Select Quiz Type:</h3>";
@@ -91,8 +90,7 @@
                 echo "<p>You scored <b>{$_SESSION['fp_score']}</b> out of <b>" . count($fourpics) . "</b>.</p>";
                 echo "<p><a href='WebFundamentalQuiz.php?type=fourpics'><button>Try Again</button></a> ";
                 echo "<a href='WebFundamentalQuiz.php'><button>Choose Another Quiz Type</button></a> ";
-                echo "<a href='quiz.php'><button>Back to Hub</button></a></p>";
-
+                echo "<p><a href='quiz.php'><button>Back to Quiz Hub</button></a></p>";
                 unset($_SESSION['fp_index']);
                 unset($_SESSION['fp_score']);
                 include "footer.php";
@@ -137,7 +135,7 @@
         echo "<p>You scored <b>$score</b> out of <b>" . count($questions) . "</b>. You got <b>$xp XP</b>.</p>";
         echo "<p><a href='WebFundamentalQuiz.php?type=$type'><button>Try Again</button></a> ";
         echo "<a href='WebFundamentalQuiz.php'><button>Choose Another Quiz Type</button></a> ";
-        echo "<a href='quiz.php'><button>Back to Hub</button></a></p>";
+        echo "<p><a href='quiz.php'><button>Back to Quiz Hub</button></a></p>";
         include "footer.php";
         exit;
         }
