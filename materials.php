@@ -6,6 +6,7 @@ if (!isset($_SESSION['username'])) {
 }
 include "header.php";
 
+
 // Materials (just lessons, no quiz here)
 $materials = [
     [

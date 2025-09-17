@@ -1,39 +1,64 @@
-body {
+.about-page {
     background-color: #f0f8ff;
-    font-family: Arial, sans-serif;
     color: black;
+    font-family: Verdana, Geneva, sans-serif;
+    padding: 20px;
 }
 
-h2 {
-    text-align: left;
-    margin-left: 20px;
+.about-page h2 {
+    text-align: center;
     font-size: 32px;
     color: #ff6600;
 }
 
-table {
-    margin-top: 20px;
-    border-collapse: separate;
-    border-spacing: 20px;
+.about-page .about-text {
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    margin: 0 auto 30px;
+    padding: 0 20px;
+    max-width: 900px;
 }
 
-td {
+/* Team Grid - 3x3 fixed */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* always 3 columns */
+    gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1000px; /* keeps grid centered and neat */
+}
+
+.card {
     border: 2px solid black;
     border-radius: 10px;
     padding: 15px;
     background-color: #ffffff;
-    width: 220px;
+    text-align: center;
 }
 
-td b {
-    color: #003366;
-}
-
-table img {
+.card img {
+    border-radius: 50%;
     border: 3px solid #ff6600;
+    margin-bottom: 10px;
 }
 
-.about-text {
-    font-size: 16px;
-    color: black;
+.card b {
+    color: #003366;
+    display: block;
+    margin-top: 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+    .team-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
+    }
+}
+
+@media (max-width: 600px) {
+    .team-grid {
+        grid-template-columns: 1fr; /* 1 column on mobile */
+    }
 }

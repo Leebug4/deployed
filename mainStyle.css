@@ -7,15 +7,12 @@ html, body {
     padding: 0;
 }
 body {
-    min-height: 100vh;
-    position: relative;
     font-family: Arial, sans-serif;
     background-color: #e6f7ff;
-    display: flex;
-    flex-direction: column;
+    color: #333;
+    display: block; /* Normal flow so footer appears after content */
 }
 main {
-    flex: 1;
     padding: 20px;
 }
 h1, h2 {
@@ -34,15 +31,16 @@ input[type="text"] {
 }
 
 /* =========================
-   Header Styles
+   Scoped Header Styles
 ========================= */
-header {
-    background: rgba(0, 123, 255, 0.18);
+.site-header {
+    background: #fff;
     color: #333;
-    text-align: center;
     padding: 6px 0;
+    border: none;
+    margin: 0;
 }
-.header-container {
+.site-header .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,40 +48,48 @@ header {
     padding: 18px 48px 0 48px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
-.logo-area {
+
+.site-header .logo-area {
     display: flex;
     align-items: center;
 }
-.logo-area img {
+
+.site-header .logo-area img {
     height: 48px;
     margin-right: 12px;
 }
-.logo-area .logo-text {
+
+.site-header .logo-area .logo-text {
     font-size: 1.6rem;
     font-weight: bold;
     color: #ff8800;
     letter-spacing: 1px;
 }
-.logo-area .logo-sub {
+
+.site-header .logo-area .logo-sub {
     font-size: 1rem;
     color: #ff8800;
     margin-left: 4px;
 }
-.nav-menu {
+
+.site-header .nav-menu {
     display: flex;
     gap: 38px;
 }
-.nav-menu a {
+
+.site-header .nav-menu a {
     text-decoration: none;
     color: #888;
     font-size: 1.25rem;
     font-weight: 600;
     transition: color 0.2s;
 }
-.nav-menu a:hover {
+
+.site-header .nav-menu a:hover {
     color: #007bff;
 }
-.profile-img {
+
+.site-header .profile-img {
     width: 54px;
     height: 54px;
     border-radius: 50%;
@@ -104,12 +110,31 @@ button {
     border-radius: 12px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.08);
     margin: 0 12px;
-    transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s, transform 0.2s;
 }
 button:hover {
     background-color: #0056b3;
     box-shadow: 0 4px 12px rgba(0,0,0,0.12);
-    transform: scale(2.08);
+    transform: scale(1.25);
+}
+
+/* Quiz button inline style */
+a.btn.quiz-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 12px;
+    text-decoration: none;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    transition: background-color 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+a.btn.quiz-btn:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    transform: scale(1.05);
 }
 
 /* =========================
@@ -126,7 +151,7 @@ button:hover {
     color: #111;
     box-shadow: 0 4px 24px rgba(0,0,0,0.08);
     position: relative;
-    overflow: visible;  /* Allow image to overflow */
+    overflow: visible;
 }
 .banner-text {
     max-width: 540px;
@@ -174,7 +199,6 @@ button:hover {
   height: calc(100% + 80px);
   border-radius: 0;
   box-shadow: 0 4px 24px rgba(0,0,0,0.12);
-  object-fit: cover;
   object-position: center; 
 }
 
@@ -185,16 +209,17 @@ footer {
     background: #007bff62;
     color: #fff;
     text-align: center;
-    padding: 3px 0;
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    padding: 10px 0;
+    position: relative; /* No longer fixed */
     width: 100%;
     font-size: 1rem;
     letter-spacing: 1px;
-    z-index: 100;
     box-shadow: 0 -2px 8px rgba(0,0,0,0.08);
 }
+
+/* =========================
+   Profile Avatar
+========================= */
 .profile-avatar {
     display: flex;
     align-items: center;
@@ -202,7 +227,7 @@ footer {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: #f0f0f0; /* circle background */
-    font-size: 22px;     /* size of emoji */
+    background: #f0f0f0;
+    font-size: 22px;
     cursor: pointer;
 }

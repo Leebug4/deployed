@@ -6,7 +6,7 @@
     }
     include "header.php";
     ?>
-    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="quizFormStyle.css">
     <?php
     $topicKey = "Web FundamentalQuiz";
     $type = $_GET['type'] ?? '';

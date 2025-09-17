@@ -98,20 +98,26 @@ form input[type="submit"]:hover {
     background: #c62828 !important;
 }
 
-/* Table */
+/* Table (Scoreboard) */
 table {
     width: 100%;
     border-collapse: collapse;
     text-align: center;
+    border-radius: 12px;         /* Rounded corners */
+    overflow: hidden;            /* Makes rows respect rounded edges */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08); /* Subtle shadow */
 }
+
 table th, table td {
     padding: 12px;
     border: 1px solid #ddd;
 }
+
 table th {
     background: #007bff;
     color: white;
 }
+
 table tr:nth-child(even) {
     background: #f9f9f9;
 }
@@ -127,6 +133,7 @@ table tr:nth-child(even) {
     box-shadow: 0 4px 16px rgba(0,0,0,0.1);
 }
 
+/* Stats Section */
 .stats {
   display: flex;
   justify-content: center;  /* centers them horizontally */
@@ -154,4 +161,3 @@ table tr:nth-child(even) {
   margin-bottom: 5px;
   color: orange;
 }
-

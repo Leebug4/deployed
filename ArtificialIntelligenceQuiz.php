@@ -6,7 +6,7 @@ if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] == false) {
 }
 include "header.php";
 ?>
-<link rel="stylesheet" href="quiz.css">
+<link rel="stylesheet" href="quizFormStyle.css">
 <?php
 $topicKey = "ArtificialIntelligenceQuiz";
 $type = $_GET['type'] ?? '';
