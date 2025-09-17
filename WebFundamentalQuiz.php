@@ -86,11 +86,31 @@
 
             // Done all questions
             if ($_SESSION['fp_index'] >= count($fourpics)) {
+                $score = $_SESSION['fp_score'];
+                $max = count($fourpics);
+
+                // === XP Calculation ===
+                $xp = $score * 100;
+
+                if (!isset($_SESSION['points'])) $_SESSION['points'] = 0;
+                $_SESSION['points'] += $xp;
+
+                // Save perfect scores
+                if ($score === $max) {
+                    if (!isset($_SESSION['perfects'])) $_SESSION['perfects'] = 0;
+                    $_SESSION['perfects']++;
+                }
+
+                if (!isset($_SESSION['scores'])) $_SESSION['scores'] = [];
+                $_SESSION['scores'][$topicKey] = ["type"=>$type,"score"=>$score,"max"=>$max];
+                $_SESSION['score'] = $score;
+
                 echo "<h2>Results</h2>";
-                echo "<p>You scored <b>{$_SESSION['fp_score']}</b> out of <b>" . count($fourpics) . "</b>.</p>";
+                echo "<p>You scored <b>$score</b> out of <b>$max</b>. You got <b>$xp XP</b>.</p>";
                 echo "<p><a href='WebFundamentalQuiz.php?type=fourpics'><button>Try Again</button></a> ";
                 echo "<a href='WebFundamentalQuiz.php'><button>Choose Another Quiz Type</button></a> ";
                 echo "<p><a href='quiz.php'><button>Back to Quiz Hub</button></a></p>";
+
                 unset($_SESSION['fp_index']);
                 unset($_SESSION['fp_score']);
                 include "footer.php";
