@@ -1,0 +1,173 @@
+/* quiz.css */
+
+/* ===== Global Page Layout ===== */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: #ffffff; /* White background */
+    margin: 0;
+    padding: 0;
+    color: #2d3436;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ===== Main Content ===== */
+h1, h2, h3 {
+    text-align: center;
+    font-weight: 700;
+}
+
+h1 {
+    margin: 25px 0 10px;
+    font-size: 2.5rem;
+    color: #2d3436;
+}
+
+h2 {
+    margin: 15px 0;
+    font-size: 2rem;
+    color: #e67e22; /* Orange */
+}
+
+h3 {
+    font-size: 1.3rem;
+    color: #636e72;
+}
+
+/* ===== Navigation Buttons ===== */
+button,
+input[type="submit"] {
+    background: #e67e22; /* Orange buttons */
+    border: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    margin: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background: #cf6e1d;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+button:active,
+input[type="submit"]:active {
+    transform: scale(0.97);
+}
+
+/* ===== Quiz Container ===== */
+form {
+    max-width: 750px;
+    margin: 30px auto;
+    padding: 25px;
+    background: #f9f9f9;
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+    text-align: left;
+}
+
+/* ===== Question Styling ===== */
+form p {
+    font-size: 18px;
+    margin: 15px 0 10px;
+    font-weight: 600;
+    color: #e67e22; /* Orange for questions */
+}
+
+/* ===== Multiple Choice Options ===== */
+input[type="radio"] {
+    display: none; /* Hide the default radio */
+}
+
+label {
+    display: block;
+    background: #ffffff;
+    color: #3498db; /* Blue text by default */
+    padding: 10px 15px;
+    border-radius: 12px;
+    margin: 8px 0;
+    border: 2px solid #3498db;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+label:hover {
+    background: #ecf6fd;
+    transform: translateX(5px);
+}
+
+/* Selected choice stays orange */
+/* Fix for inputs INSIDE labels (MCQ + True/False) */
+label:has(input[type="radio"]:checked) {
+    background: #e67e22;   /* Orange background */
+    color: #ffffff;        /* White text */
+    border-color: #e67e22; /* Orange border */
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(230, 126, 34, 0.7); /* Orange glow */
+}
+
+
+/* ===== Text Input ===== */
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 2px solid #3498db;
+    border-radius: 12px;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus {
+    box-shadow: 0 0 0 3px #3498db;
+}
+
+/* ===== Images (4 Pics 1 Word) ===== */
+img {
+    border-radius: 15px;
+    border: 3px solid #e67e22;
+    margin: 8px;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.08);
+    border-color: #3498db;
+}
+
+/* ===== Results Page ===== */
+.results {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+    background: #f9f9f9;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0px 6px 18px rgba(0,0,0,0.15);
+}
+
+.results p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.results .score-pass {
+    color: #00b894;
+}
+
+.results .score-fail {
+    color: #d63031;
+}
