@@ -6,7 +6,6 @@ if (!isset($_SESSION['username'])) {
 }
 include "header.php";
 ?>
-
 <link rel="stylesheet" href="aboutStyle.css">
 <h2>About Us</h2>
 
@@ -43,13 +42,7 @@ include "header.php";
             <b>John Mark Cabugawan</b><br>
             CSS Programmer<br>
             <p>I handled the front-end coding</p>
-        </td>  
-        <td align="center">
-            <img src="DevsImages/Cruz, Bjorn Kurk G..jfif" width="120" height="120" style="border-radius:50%;"><br>
-            <b>Bjorn Cruz</b><br>
-            Programmer<br>
-            <p>I handled the back-end coding</p>
-        </td>     
+        </td>             
     </tr>
 
     <tr>      
@@ -77,7 +70,12 @@ include "header.php";
             Role/Position<br>
             <p>Short description about member 9.</p>
         </td>
-        
+        <td align="center">
+            <img src="DevsImages/Cruz, Bjorn Kurk G..jfif" width="120" height="120" style="border-radius:50%;"><br>
+            <b>Bjorn Cruz</b><br>
+            Programmer<br>
+            <p>I handled the back-end coding</p>
+        </td>   
     </tr>
 </table>
 

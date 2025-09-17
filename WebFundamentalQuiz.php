@@ -135,7 +135,7 @@
         echo "<p>You scored <b>$score</b> out of <b>" . count($questions) . "</b>. You got <b>$xp XP</b>.</p>";
         echo "<p><a href='WebFundamentalQuiz.php?type=$type'><button>Try Again</button></a> ";
         echo "<a href='WebFundamentalQuiz.php'><button>Choose Another Quiz Type</button></a> ";
-        echo "<p><a href='quiz.php'><button>Back to Quiz Hub</button></a></p>";
+                echo "<p><a href='quiz.php'><button>Back to Quiz Hub</button></a></p>";
         include "footer.php";
         exit;
         }
