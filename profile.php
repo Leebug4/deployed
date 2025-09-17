@@ -70,19 +70,32 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] && isset($_SESSION['
         <h2><?php echo $_SESSION['nickname']; ?></h2>
         <p class="username">@<?php echo $_SESSION['username']; ?></p>
         <div class="stats">
-            <div class="stat-card">
+        <!-- Crown: Level -->
+            <div class="stat-card"> 
                 <i class="fa-solid fa-crown"></i>
-                <span>10</span>
+                <span>
+                    <?php 
+                    $points = $_SESSION['points'] ?? 0;
+                    $level = floor($points / 1000) + 1;
+                    echo "Lvl " . $level;
+                    ?>
+                </span>
             </div>
+
+            <!-- Fire: Perfect scores -->
             <div class="stat-card">
                 <i class="fa-solid fa-fire"></i>
-                <span>26</span>
+                <span><?php echo $_SESSION['perfects'] ?? 0; ?></span>
             </div>
-            <div class="stat-card">
-                <i class="fa-solid fa-star"></i>
-                <span>15</span>
+
+                <!-- Star: XP points -->
+                <div class="stat-card">
+                    <i class="fa-solid fa-star"></i>
+                    <span><?php echo $_SESSION['points'] ?? 0; ?></span>
+                </div>
             </div>
-        </div>
+
+
     </aside>
 
     <!-- RIGHT DASHBOARD -->

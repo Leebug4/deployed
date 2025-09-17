@@ -104,6 +104,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
     else {
         // Normal MCQ / Fill / TrueFalse scoring
+            // Normal MCQ / Fill / TrueFalse scoring
         $score = 0;
         foreach ($questions as $i => $q) {
             $user = $_POST["q$i"] ?? '';
@@ -116,14 +117,27 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             }
         }
 
+        // === XP Calculation ===
+        $xp = $score * 100;
+
+        // Save points
+        if (!isset($_SESSION['points'])) $_SESSION['points'] = 0;
+        $_SESSION['points'] += $xp;
+
+        // Save perfects (🔥)
+        if ($score === count($questions)) {
+            if (!isset($_SESSION['perfects'])) $_SESSION['perfects'] = 0;
+            $_SESSION['perfects']++;
+        }
+
         if (!isset($_SESSION['scores'])) $_SESSION['scores'] = [];
         $_SESSION['scores'][$topicKey] = ["type"=>$type,"score"=>$score,"max"=>count($questions)];
-        $_SESSION['score'] = $score;
-        
+        $_SESSION['score'] = $score;   
+
         echo "<h2>Results</h2>";
-        echo "<p>You scored <b>$score</b> out of <b>" . count($questions) . "</b>.</p>";
-        echo "<p><a href='ProgrammingFundamentalQuiz.php?type=$type'><button>Try Again</button></a> ";
-        echo "<a href='ProgrammingFundamentalQuiz.php'><button>Choose Another Quiz Type</button></a> ";
+        echo "<p>You scored <b>$score</b> out of <b>" . count($questions) . "</b>. You got <b>$xp XP</b>.</p>";
+        echo "<p><a href='WebFundamentalQuiz.php?type=$type'><button>Try Again</button></a> ";
+        echo "<a href='WebFundamentalQuiz.php'><button>Choose Another Quiz Type</button></a> ";
         echo "<a href='quiz.php'><button>Back to Hub</button></a></p>";
         include "footer.php";
         exit;
@@ -181,4 +195,4 @@ echo "<br><input type='submit' value='Submit Answers'>";
 echo "</form>";
 
 include "footer.php";
-?>
+?> 
