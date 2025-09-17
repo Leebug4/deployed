@@ -3,7 +3,7 @@ session_start();
 include "header.php";   
 $valid_user = "student";
 $valid_pass = "12345";
-
+    
 // Handle login
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['login'])) {
     if ($_POST['username'] == $valid_user && $_POST['password'] == $valid_pass) {
@@ -23,10 +23,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['login'])) {
     }
 }
 
-// Handle profile update
+// Handle profile update (with auto-reload)
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['update_profile'])) {
     $_SESSION['nickname'] = $_POST['nickname'];
     $_SESSION['avatar'] = $_POST['avatar'];
+
+    // Force reload so avatar updates everywhere (header + profile)
+    header("Location: profile.php");
+    exit();
 }
 
 // Handle logout
@@ -65,20 +69,20 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] && isset($_SESSION['
         <div class="avatar-circle"><?php echo $_SESSION['avatar']; ?></div>
         <h2><?php echo $_SESSION['nickname']; ?></h2>
         <p class="username">@<?php echo $_SESSION['username']; ?></p>
-<div class="stats">
-  <div class="stat-card">
-    <i class="fa-solid fa-crown"></i>
-    <span>10</span>
-  </div>
-  <div class="stat-card">
-    <i class="fa-solid fa-fire"></i>
-    <span>26</span>
-  </div>
-  <div class="stat-card">
-    <i class="fa-solid fa-star"></i>
-    <span>15</span>
-  </div>
-</div>
+        <div class="stats">
+            <div class="stat-card">
+                <i class="fa-solid fa-crown"></i>
+                <span>10</span>
+            </div>
+            <div class="stat-card">
+                <i class="fa-solid fa-fire"></i>
+                <span>26</span>
+            </div>
+            <div class="stat-card">
+                <i class="fa-solid fa-star"></i>
+                <span>15</span>
+            </div>
+        </div>
     </aside>
 
     <!-- RIGHT DASHBOARD -->

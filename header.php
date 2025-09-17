@@ -21,5 +21,13 @@
         <a href="about.php">About Us</a>   
     </nav>
     <!-- <a href="profile.php" class="profile-link"> -->
-    <img src="Images/dreamybullpfp.jpg" alt="Profile" class="profile-img">
+    <div class="profile-avatar">
+    <?php if (isset($_SESSION['logged_in']) && $_SESSION['logged_in']): ?>
+    <div class="header-avatar">
+        <?php echo $_SESSION['avatar']; ?>
+    </div>
+    <?php endif; ?>
+
+    </div>
+
 </div>

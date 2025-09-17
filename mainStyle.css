@@ -195,3 +195,14 @@ footer {
     z-index: 100;
     box-shadow: 0 -2px 8px rgba(0,0,0,0.08);
 }
+.profile-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #f0f0f0; /* circle background */
+    font-size: 22px;     /* size of emoji */
+    cursor: pointer;
+}
