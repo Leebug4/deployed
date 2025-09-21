@@ -8,7 +8,7 @@ include "header.php";
 ?>
 <link rel="stylesheet" href="quizFormStyle.css">
 <?php
-$topicKey = "ArtificialIntelligenceQuiz";
+$topicKey = "ArtificialIntelligenceQuiz"; 
 $type = $_GET['type'] ?? '';
 
 // question sets
